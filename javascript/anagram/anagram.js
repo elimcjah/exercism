@@ -3,7 +3,6 @@ class Anagram {
     constructor(analyseThis){
 
         this.analyseThis = analyseThis;
-
     }
 
     matches(listOfWords){
