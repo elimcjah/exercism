@@ -14,11 +14,8 @@ class Anagram {
 
         let upCaseInput = this.analyseThis.toUpperCase();
         let upCaseSorted = upCaseInput.split('').sort().join('');
-
         listOfWords.forEach(function (element){
-
             let goodOne = element.toUpperCase();
-
             if (goodOne !== upCaseInput){
                 goodOne = goodOne.split('').sort().join('');
                 if(goodOne === upCaseSorted){
