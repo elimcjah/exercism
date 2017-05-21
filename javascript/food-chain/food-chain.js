@@ -47,7 +47,6 @@ class FoodChain{
         input === 2 ? answer += this.iKnow + this.spider1 + '.\n' + this.spider2 + this.stdEnding.slice(93) :
         input === 1 ? answer += this.iKnow + this.fly1 + '.' + this.fly2 :
                       answer += '';
-
         return answer;
     }
 
