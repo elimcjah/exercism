@@ -4,10 +4,8 @@
 //
 
 class HelloWorld {
-  hello() {
-
-
-
+  hello(x = null) {
+    return x != null ? 'Hello, ' + x + '!' : 'Hello, World!';
   }
 }
 
