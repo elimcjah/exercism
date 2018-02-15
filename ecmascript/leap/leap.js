@@ -1,7 +1,3 @@
-/**
- * Created by Elijah McClendon on 1/11/18.
- */
-
 class Year{
   constructor(y){
     this.year = y;
